@@ -127,13 +127,13 @@ section.five {
 }
 
 footer {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
   scroll-snap-align: start;
   background: #e30512;
   padding: 0 1.5rem 1.5rem 1.5rem;
   text-align: center;
+}
+
+footer .text_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -144,35 +144,75 @@ footer {
   gap: .75rem;
 }
 
-footer .description {
+footer .text_container .description {
   font-weight: 700;
   color: #251d20;
   font-size: 18px;
 }
 
-footer .copyright {
+footer .text_container .copyright {
   font-size: 12px;
 }
 
-footer .copyright a {
+footer .text_container .copyright a {
   color: #251d20;
   font-size: 12px;
   font-weight: 400;
 }
 
-footer a {
+footer .text_container a {
   margin-top: 1.5rem;
   color: #251d20;
   font-size: 18px;
   font-weight: 700;
 }
 
-footer address {
+footer .text_container address {
   margin-top: 1.5rem;
+  display: block;
+}
+
+footer .text_container address a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+footer address {
+  display: none;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
 }
 
 footer address a {
+  color: #251d20;
   text-decoration: none;
-  font-style: normal;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  footer .text_container {
+    max-width: 300px;
+    text-align: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  footer .text_container address {
+    display: none;
+  }
+  footer address {
+    display: block;
+  }
 }
 /*# sourceMappingURL=style.css.map */
