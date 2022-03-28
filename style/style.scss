@@ -26,7 +26,6 @@ img {
 }
 
 html {
-    scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(100vh);
     scroll-snap-type: y mandatory;
 }
@@ -38,9 +37,4 @@ section {
     position: relative;
 }
 
-h1 {
-    position: absolute;
-	top: 50%;
-    right: 50%;
-	transform: translate(50%, 50%);
-}
+@import "./section";
