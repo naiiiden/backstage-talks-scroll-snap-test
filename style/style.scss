@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+$black: #251d20;
+$cyan: #00c1b5;
+$yellow: #ffbe00;
+$red: #e30512;
+$orange: #ff651a;
+$blue: #1d3fbb;
+$white: #ffffff;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    max-height: 100vh;
+    font-family: Roboto, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
