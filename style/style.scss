@@ -24,3 +24,23 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+html {
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+	top: 50%;
+    right: 50%;
+	transform: translate(50%, 50%);
+}
