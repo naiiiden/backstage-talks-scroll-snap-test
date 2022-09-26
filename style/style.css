@@ -86,16 +86,16 @@ section.five {
   padding: 0 1rem;
 }
 .image_container .text_wrapper .issue {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .image_container .text_wrapper a {
   color: #ffffff;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 0.938rem;
   text-decoration: none;
 }
 .image_container .text_wrapper p {
-  font-size: 15px;
+  font-size: 0.938rem;
   font-weight: 700;
 }
 
@@ -113,20 +113,20 @@ footer .text_container {
 footer .text_container .description {
   font-weight: 700;
   color: #251d20;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 footer .text_container .copyright {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 footer .text_container .copyright a {
   color: #251d20;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 400;
 }
 footer .text_container a {
   margin-top: 1.5rem;
   color: #251d20;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
 }
 footer .text_container address {
@@ -139,7 +139,7 @@ footer .text_container address a {
 }
 footer address {
   display: none;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   font-style: normal;
 }
@@ -179,7 +179,7 @@ footer nav {
   }
   header address {
     display: block;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
     font-style: normal;
   }
@@ -211,7 +211,7 @@ footer nav {
   }
   footer nav a {
     color: #251d20;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-decoration: none;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -62,18 +62,18 @@ section {
         padding: 0 1rem;
 
         .issue {
-            font-size: 18px;
+            font-size: 1.125rem;
         }
 
         a {
             color: $white;
             font-weight: 700;
-            font-size: 15px;
+            font-size: .938rem;
             text-decoration: none;
         }
 
         p {
-            font-size: 15px;
+            font-size: .938rem;
             font-weight: 700;
         }
     }
@@ -93,15 +93,15 @@ footer {
         .description {
             font-weight: 700;
             color: $black;
-            font-size: 18px;
+            font-size: 1.125rem;
         }
     
         .copyright {
-            font-size: 12px;
+            font-size: .75rem;
     
             a {
                 color: $black;
-                font-size: 12px;
+                font-size: .75rem;
                 font-weight: 400;
             }
         }
@@ -109,7 +109,7 @@ footer {
         a {
             margin-top: 1.5rem;
             color: $black;
-            font-size: 18px;
+            font-size: 1.125rem;
             font-weight: 700;
         }
     
@@ -126,7 +126,7 @@ footer {
 
     address {
         display: none;
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: 700;
         font-style: normal;
         
@@ -174,7 +174,7 @@ footer {
 
         address {
             display: block;
-            font-size: 18px;
+            font-size: 1.125rem;
             font-weight: 700;
             font-style: normal;
 
@@ -213,7 +213,7 @@ footer {
 
             a {
                 color: $black;
-                font-size: 18px;
+                font-size: 1.125rem;
                 text-decoration: none;
             }
         }
